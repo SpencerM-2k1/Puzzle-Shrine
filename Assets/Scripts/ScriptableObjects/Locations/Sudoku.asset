@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d74bac353582c89db88ce28cb79b0ac9, type: 3}
+  m_Name: Sudoku
+  m_EditorClassIdentifier: 
+  _id: sudoku
+  _displayName: Sudoku Puzzle
+  _textColor: {r: 255, g: 255, b: 255, a: 1}
+  _instructions: 'Controls:
+
+    - Click on a number at the bottom of the screen
+    in order to select a number to place.
+
+    - Click on a space in order to determine
+    where to place the number.
+
+    - Numbers in red cannot be modified.
+
+
+    In
+    order to win...
+
+    - Each quadrant should have no duplicate numbers.
+
+    -
+    Each row should have no duplicate numbers.
+
+    - Each column should have no
+    duplicate numbers.'

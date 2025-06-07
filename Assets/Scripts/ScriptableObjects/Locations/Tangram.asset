@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d74bac353582c89db88ce28cb79b0ac9, type: 3}
+  m_Name: Tangram
+  m_EditorClassIdentifier: 
+  _id: tangram
+  _displayName: Chie-no-Ita
+  _textColor: {r: 0.33333325, g: 1, b: 0, a: 1}
+  _instructions: 'Controls:
+
+    - Click on the grey circle within a shape in order
+    to move that shape.
+
+    - Click again in order to place the shape down at its
+    current position.
+
+
+    In order to win, place the shapes so that they match
+    the silhouette as closely as possible.'
